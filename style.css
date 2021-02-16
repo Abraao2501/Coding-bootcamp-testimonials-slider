@@ -6,4 +6,111 @@ body {
     padding: 0;
 
     font-family: 'Inter', sans-serif;
+    
+    display: flex;
+    align-items: center;
+
+    background: white;
+}
+
+/*Text Part*/
+section.text {
+    margin: 30% 0 0 30%;
+}
+section.text img {
+    z-index: -1;
+    position: absolute;
+
+    margin: -70px   0  0 85px;
+}
+section.text p.informations{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+    width:45vw;
+
+    margin: 0 0 0 0; 
+}
+section.text p.name {
+    font-weight: 800;
+}
+section.text p.profession {
+    font-weight: 300;
+    color: hsl(240, 18%, 77%);
+
+    margin-left: 15px;
+}
+section.text .footer-text{
+    display: flex;
+}
+
+/*Photo and Forms Part*/
+section.img-person .photo {
+    position: absolute; 
+    z-index: -1;
+
+    right: 8em;
+    top: 0;
+
+    width: 400px;
+    height: 400px;
+    margin-top: 22vh;
+}
+section.img-person img#bg {
+    position: absolute; 
+    z-index: -1;
+
+    width: 550px;
+    height: 550px;
+
+    right: 5em;
+    top: 90px;
+    
+    margin-top: -10vh;
+
+}
+img#curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*Butons*/
+
+.buttons-slider {
+    display: flex;
+    align-items: center;
+    width: 111px;
+    margin: 0;
+
+    position: absolute;
+    right: 22em;
+    top: 32em;
+}
+.prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 55px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 30px 0px 0px 30px;
+
+    cursor: pointer;
+}
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 55px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 0px 30px 30px 0px;
+    margin-left: 1px;
+
+    cursor: pointer;
 }
